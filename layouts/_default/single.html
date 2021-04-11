@@ -1,28 +1,27 @@
 {{ define "title" }}
-  {{ .Title }}
+{{ .Title }}
 {{ end }}
 
 {{ define "main" }}
-	{{ if .PublishDate }}
-       <!--  <a href="/" class="post__author">
-      <span class="post__author__image"></span>
-      <span class="post__author__byline">K.Q. Dreger</span>
-    </a> -->
-  	<header class="header">
-      By <a href="/">K.Q. Dreger</a>
-    </header>
-	{{ end }}
 
-  	<h1 class="post__title">{{ .Title }}</h1>
-    <!-- <h2 class="post__summary">{{ .Summary }}</h2> -->
+<style scoped>
+  body { 
+    font-size: 22px; 
+    margin: 0; 
+  }
+  main {
+    max-width: 30em; 
+    margin: 3rem auto;
+    padding: 0 1rem; 
+  }
+  h2 { margin-top: 6rem; }
+  a { border-width: 1px; }
+  img {
+    max-width: 400px; 
+    width: 100%; 
+  }
+</style>
 
-    
-
-  
-
-  	{{ .Content }}
-{{ if .PublishDate }}
-    <p class="post__meta"><br>{{ .PublishDate.Format "January 2006" }}</p>
-    {{ end }}
+{{ .Content }}
 
 {{ end }}

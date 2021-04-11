@@ -18,26 +18,27 @@
   --max-width-nav: 240px; 
   --max-width: 44rem; 
   --padding: 4rem; 
+  --base-size: 16px; 
 }
 
 ::selection { background-color: var(--faded); }
 * { box-sizing: border-box; } 
 html { 
-  font-size: 20px; 
+  font-size: var(--base-size); 
 }
 body {
+  font-size: calc(var(--base-size) * 3); 
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
   color: var(--text);
   background: var(--bg); 
   font-family: var(--font); 
   font-weight: var(--font-weight-regular);
-  margin: 0 auto;
+  margin: 3rem;
   padding: 0;
-  line-height: 1.5; 
+  font-weight: 400; 
+  line-height: 1.4; 
   text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-  letter-spacing: .02em;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1.5rem 0; }
 code { font-family: var(--font); }
@@ -48,7 +49,6 @@ h1, h2, h3 {
   color: var(--text-heading); 
 }
 h1 { 
-  font-size: 2rem; 
   letter-spacing: -.01em;
 }
 
@@ -57,11 +57,11 @@ li { margin-bottom: .5rem; }
 a {
   color: var(--text); 
   text-decoration: none; 
-  border-bottom: 2px solid var(--accent-yellow);
+  border-bottom: 1px dotted var(--accent);
 }
-a:hover { 
-  border-color: var(--accent); 
-  color: var(--accent); 
+a:hover {
+  color: var(--accent-yellow); 
+  border-color: var(--accent-yellow); 
 }
 
 
@@ -71,9 +71,7 @@ hr { margin: 2rem 0; height: 2px; background: var(--faded); border: 0; }
 
 
 main {
-  max-width: var(--max-width); 
-  margin: 3rem auto;
-  padding: var(--padding); 
+  max-width: 1280px; 
 }
 
 .ppp {
@@ -86,8 +84,8 @@ main {
 @media (max-width: 52rem) {
   :root {
     --padding: 1rem; 
+    --base-size: 8px; 
   }
-  html { font-size: 18px; }
   main {
     margin: 0;
   }

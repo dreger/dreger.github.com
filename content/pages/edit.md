@@ -4,12 +4,16 @@ title: Edit for iOS
 
 ![edit for iOS](/images/edit.png)
 
-[![edit for iOS on the app store](/images/app-store.png)][edit]
-
+<!-- [![edit for iOS on the app store](/images/app-store.png)][edit]
+ -->
 
 Edit is a single page of paper, not a notebook. You get one note, and whatever you leave in the app will be there when you get back. Once you're done writing, you can send or save your text to anywhere in iOS via the Share Sheet. 
 
 Edit doesn't try to replace your existing writing apps, it wants to complement them. 
+
+**[Grab a copy today &rarr;][edit]**
+
+
 
 ## What's in the box? 
 
@@ -18,7 +22,10 @@ Edit doesn't try to replace your existing writing apps, it wants to complement t
 * One-touch select all: effortlessly clear the page.
 * Export: send your text to anywhere in iOS. 
 * Word/character count: know how much you've written. 
-* Pinch-to-zoom font size: just like with photos, but for text.  
+<!-- * Pinch-to-zoom font size: just like with photos, but for text.  
+ -->
+
+
 
 ## What the people say
 

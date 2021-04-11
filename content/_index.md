@@ -1,18 +1,18 @@
-# HI, HEY, HELLO ✌️
+# Hi, Hey, Hello 
 
-<img class="ppp" src="/images/ppp.jpeg">
+<!-- <img class="ppp" src="/images/ppp.jpeg"> -->
 
-Welcome to my website. I'm K.Q. Dreger. 
-
-
-By day I work at [Patriot](https://patriotsoftware.com/), where I get to empower our engineering, product, design, and research teams as the vp of product. 
+Welcome to my website. I'm K.Q. Dreger. ✌️
 
 
-By night I write about products, people, and punctuation. And by nighter night I bake. Pizza, mostly. 
+By day I work at [Patriot](https://patriotsoftware.com/), where I get to lead our engineering, product, design, and research teams as the VP of Product. 
+
+
+By night I write about products, people, and punctuation. By nighter night I bake. Pizza, mostly. 
 
 **[Audacious, my blog](https://audacious.blog/)**
 
-**[Edit for iPhone & iPad, my app](/edit)**
+**[Edit for iOS, my app](/edit)**
 
 **[Twitter](https://twitter.com/dreger)**
 
